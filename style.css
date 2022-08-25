@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header {
+    background-color: #212529;
+    padding: 8px 0;
+    justify-content: space-between;
+    display: flex;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 5px 0;
+    margin-left: 100px;
+}
+
+.MenuBar ul li a {
+    padding: 8px 0;
+    font-size: 16px;
+    display: inline-block;
+    color: #ffffff8c;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+.MenuBar ul li {
+    margin-right: 4px;
+    display: inline-block;
+    list-style: none;
+}
+
+.MenuBar ul li a:hover {
+    color: aliceblue;
+}
+
+.blue {
+    background-color: #327EFD;
+    text-align: center;
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+}
+
+.blue h1 {
+    color: white;
+    font-size: calc(1.375rem + 1.5vw);
+    margin-bottom: 8px;
+}
+
+.blue p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: white;
+}
+
+.blue a {
+    color: black;
+    background-color: white;
+    padding: 8px 16px;
+    border-color: white;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    transition: 0.5s;
+}
+
+.blue a:hover {
+    background-color: #e5e4e2;
+    box-shadow: 10px 9px 19px 0px;
+}
+
+.white {
+    background-image: url(https://www.whatsappimages.in/wp-content/uploads/2022/03/Beautiful-White-Background-Images-pics-for-download-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.white .about{ 
+    margin-left: 300px;
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+}
+
+.white h2 {
+    color: #212529;
+    font-weight: 600;
+    font-size: calc(1.325rem + 0.9vw);
+}
+
+.white p {
+    color: #212529;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+
+.white ul li {
+    margin-left: 30px;
+}
+
+#services {
+    background-image: url(https://media.istockphoto.com/photos/bright-paper-background-of-several-colors-picture-id1151126679?b=1&k=20&m=1151126679&s=170667a&w=0&h=hhevCSv-UxQ73kN-P60-JdTrE6NAGqELCkW_rKwuyek=);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+}
+
+#services .services2 {
+    margin-left: 300px;
+}
+
+.services2 h2 {
+    margin-bottom: 0.5rem;
+    font-size: calc(1.325rem + 0.9vw);
+    font-weight: 600;
+}
+
+.services2 p {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+#contact {
+    background-image: url(https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#contact .contact2{
+    
+    margin-left: 300px;
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+}
+
+#contact h2 {
+    color: #212529;
+    font-weight: 600;
+    font-size: calc(1.325rem + 0.9vw);
+}
+
+#contact p {
+    color: #212529;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.footer {
+    background-color: #212529;
+    padding: 48px 0;
+    color: white;
+    text-align: center;
+}
